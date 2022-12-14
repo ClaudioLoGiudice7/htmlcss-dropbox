@@ -30,11 +30,6 @@ video {
     margin: 0 auto;
 }
 
-.small-container {
-    max-width: 850px;
-    margin: 0 auto;
-}
-
 .clearfix::after {
     content: '';
     clear: both;
@@ -49,10 +44,11 @@ video {
 
 .jumbotron{
     background-color: #B4D0E7;
+    height: 400px;
 }
 
 .title{
-    text-align: center;
+    font-size: 48px;
 }
 
 .text {
@@ -65,4 +61,219 @@ video {
     height: 200px;
     width: 650px;
     float: left;
+}
+
+.first-main-section{
+    margin-top: 100px;
+}
+
+.first-main-div{
+    margin-top: 100px;
+    height: 350px;
+}
+
+.small-container {
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+#kind-of-radio-button{
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+}
+
+.monthly-billing{
+    float: left;
+    margin-left: 50px;
+}
+
+#second-kind-of-radio-button{
+    border: 1px solid grey;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    float: left;
+}
+
+.yearly-billing{
+    float: left;
+    margin-left: 100px;
+}
+
+.columns-container{
+    margin-top: 100px;
+}
+
+.first-main-column{
+    float: left;
+    width: 33%;
+}
+
+.second-main-column {
+    float: left;
+    width: 33%;
+}
+
+.third-main-column {
+    float: left;
+    width: 33%;
+}
+
+.team-row{
+    text-align: center;
+}
+
+.enterprise-block{
+    height: 200px;
+    margin-bottom: 200px;
+}
+
+.team-row-left {
+    background: red;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+.team-row-right {
+    width: 30%;
+    height: 100%;
+    background: blue;
+    float: left;
+}
+
+.dropbox-partner-block {
+    height: 200px;
+    margin-bottom: 200px;
+}
+
+.dropbox-partner-left {
+    background: red;
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.partner-image{
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.dropbox-partner-right {
+    width: 40%;
+    height: 100%;
+    background: blue;
+    float: left;
+}
+
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+    margin: 30px auto;
+    background-color: yellowgreen;
+}
+
+.first-card-column{
+    background-color: darkred;
+    width: 33%;
+    height: 500px;
+}
+
+.second-card-column {
+    background-color: darkred;
+    width: 33%;
+    height: 500px;
+}
+
+.third-card-column {
+    background-color: darkred;
+    width: 33%;
+    height: 500px;
+}
+
+.card{
+    height: 50%;
+}
+
+.third-main-section{
+    height: 200px;
+    margin-bottom: 200px;
+}
+
+.dropbox-business {
+    background-color: red;
+    height: 50%;
+}
+
+.find-out-more {
+    background-color: gold;
+    height: 50%;
+}
+
+.fourth-main-section{
+    background-color: #F5F5F5;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.partnership {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: orange;
+    width: 100%;
+    height: 100%;
+}
+
+.partner-left-column {
+    height: 100%;
+    width: 33.33%;
+}
+
+.first-partner-left-row {
+    background: blue;
+    height: 50%;
+    display: flex;
+}
+
+.first-square{
+    height: 100%;
+    width: 50%;
+    background: black;
+}
+
+.second-square{
+    background: red;
+    height: 100%;
+    width: 50%;
+}
+
+.second-partner-left-row {
+    background: green;
+    height: 50%;
+}
+
+.partner-central-column{
+    height: 100%;
+    width: 33.33%;
+}
+
+.partner-right-column {
+    height: 100%;
+    width: 33.33%;
+}
+
+.first-partner-right-row {
+    background: blue;
+    height: 50%;
+}
+
+.second-partner-right-row{
+    background: green;
+    height: 50%;
 }
